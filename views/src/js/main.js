@@ -424,7 +424,7 @@ var resizePizzas = function(size) {
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
 
-    // Followed the advice given by the site's creator to simplify the code and remove the determineDX function since it was unnecessarily complicated.
+    // Followed the advice given by the site's creator to simplify the code and removed the determineDX function since it was unnecessarily complicated.
     // Determines the width and sets the size of every element to that percentage.
     switch(size) {
       case "1":
@@ -529,6 +529,8 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
+
+  // Reduced the number of pizzas generated onload.
   for (var i = 0; i < 40; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
