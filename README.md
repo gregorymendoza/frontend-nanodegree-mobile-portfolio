@@ -37,7 +37,7 @@ If you prefer to test it locally, clone this repository with Git or download the
 ####PageSpeed Score (index.html)
 
 * Minimized the use of render blocking resources by inlining the CSS and adding a media attribute to the print stylesheet.
-* Used async attribute on the <script> tags to unblock the critical routing path, the browser will download and execute the scripts but it won’t block the parser and it won’t block on CSS.
+* Used async attribute on the `<script>` tags to unblock the critical routing path, the browser will download and execute the scripts but it won’t block the parser and it won’t block on CSS.
 * Minified all CSS and JavaScript resources using Grunt.
 * Optimized and compressed the portfolio's thumbnail of the pizzeria project.
 
