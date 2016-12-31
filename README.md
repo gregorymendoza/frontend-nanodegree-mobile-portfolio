@@ -47,7 +47,7 @@ If you prefer to test it locally, clone this repository with Git or download the
 * As a good JavaScript practice, I assigned the operations and redundant methods to their own variables before the loops to reduce calculations and queries to the DOM everytime.
 * Replaced the `querySelectorAll()` method with `getElementsByClassName()` for better performance and faster access to the DOM.
 * Promoted the background pizzas to their own layers by adding a `will-change: transform` CSS property to the **mover** class. This technique or hack is made to avoid having to paint the whole page everytime there's movement.
-*Reduced the numbers of moving pizzas generated on load from 200 to 40.
+* Reduced the numbers of moving pizzas generated on load from 200 to 40.
 
 ##How to Run Grunt
 
